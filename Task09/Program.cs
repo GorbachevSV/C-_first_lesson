@@ -15,3 +15,5 @@ else
     Console.WriteLine($"max digit of the number -> {secondDigit}");
 }
 
+int result = firstDigit > secondDigit ? firstDigit : secondDigit;
+Console.WriteLine($"max digit of the number -> {result}");
