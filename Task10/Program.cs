@@ -7,7 +7,7 @@
 int SecondDigit(int num) // num = number
 {
     int thirdDigit = num / 10; // убираем 3 число
-    int firstDigit = thirdDigit % 10; // оставляем остаток
+    int firstDigit = thirdDigit % 10; // оставляем остаток, что будет как раз вторым числом
     int secD = firstDigit;
     return secD;
 }
