@@ -6,3 +6,16 @@
 // -4, 16 -> да 
 // 25, 5 -> да 
 // 8,9 -> нет
+
+bool CheckNumber(int num1, int num2)
+{
+    return num2/num1 == num1 || num1/num2 == num2;
+}
+
+Console.WriteLine("Type first number");
+int number1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Type second number");
+int number2 = Convert.ToInt32(Console.ReadLine());
+
+bool checkNumber = CheckNumber(number1, number2);
+Console.WriteLine(checkNumber ? "Yes" : "No");
